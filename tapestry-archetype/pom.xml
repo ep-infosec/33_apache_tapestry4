@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.apache.tapestry</groupId>
+    <artifactId>tapestry-archetype</artifactId>
+    <packaging>jar</packaging>
+    <version>4.1.7-SNAPSHOT</version>
+
+    <parent>
+        <groupId>org.apache.tapestry</groupId>
+        <artifactId>tapestry-project</artifactId>
+        <version>4.1.7-SNAPSHOT</version>
+    </parent>
+
+    <name>Simple Tapestry Archetype</name>
+    <inceptionYear>2007</inceptionYear>
+
+    <contributors>
+        <contributor>
+            <name>Josh Long</name>
+            <url>http://www.joshlong.com</url>
+            <email>josh@joshlong.com</email>
+        </contributor>
+        <contributor>
+            <name>Ulrich Staerk</name>
+            <email>uli@spielviel.de</email>
+        </contributor>
+    </contributors>
+
+    <dependencies>
+        <dependency>
+  	    <groupId>org.testng</groupId>
+	    <artifactId>testng</artifactId>
+	    <classifier>jdk15</classifier>
+	    <scope>test</scope>
+	    </dependency>
+	</dependencies>
+
+    <build></build>
+
+    <reporting>
+        <outputDirectory>
+            ../target/site/tapestry-archetype
+        </outputDirectory>
+        <excludeDefaults>true</excludeDefaults>
+    </reporting>
+</project>
